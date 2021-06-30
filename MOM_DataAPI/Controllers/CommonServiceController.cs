@@ -9,9 +9,13 @@ namespace MOM_DataAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class CommonServices : ControllerBase
+    public class CommonServiceController : ControllerBase
     {
+        [HttpGet]
+        public IEnumerable<string> GetAll()
+        {
+            return new string[] { "value1", "value2" };
+        }
 
-       
     }
 }
