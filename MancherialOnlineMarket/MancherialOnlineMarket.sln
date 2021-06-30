@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MancherialOnlineMarket", "MancherialOnlineMarket.csproj", "{E577E360-2293-4622-ABBD-2F341B3A8C12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOM_BusinessModule", "..\MOM_BusinessModule\MOM_BusinessModule.csproj", "{D436DE80-6D86-40A3-952D-101B923FC237}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOM_BusinessModule", "..\MOM_BusinessModule\MOM_BusinessModule.csproj", "{D436DE80-6D86-40A3-952D-101B923FC237}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOM_DataManager", "..\MOM_DataManager\MOM_DataManager.csproj", "{EEE53584-DD0F-43E7-B833-214DAAE9F520}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOM_DataManager", "..\MOM_DataManager\MOM_DataManager.csproj", "{EEE53584-DD0F-43E7-B833-214DAAE9F520}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOM_DataModel", "..\MOM_DataModel\MOM_DataModel.csproj", "{55A6EDCA-64D8-4ECB-A420-73389C3B42F4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MOM_DataModel", "..\MOM_DataModel\MOM_DataModel.csproj", "{55A6EDCA-64D8-4ECB-A420-73389C3B42F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MOM_DataAPI", "..\MOM_DataAPI\MOM_DataAPI.csproj", "{BB227955-17DE-418C-BA01-96C879A48CE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{55A6EDCA-64D8-4ECB-A420-73389C3B42F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{55A6EDCA-64D8-4ECB-A420-73389C3B42F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{55A6EDCA-64D8-4ECB-A420-73389C3B42F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB227955-17DE-418C-BA01-96C879A48CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB227955-17DE-418C-BA01-96C879A48CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB227955-17DE-418C-BA01-96C879A48CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB227955-17DE-418C-BA01-96C879A48CE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
